@@ -1,0 +1,53 @@
+﻿  ModuleTest.cpp
+gtest_main.lib(gtest_main.obj) : warning LNK4204: 'B:\7.1Dev\TDD_HW\UnitTestTemplate\Module\x64\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+gtest.lib(gtest-all.obj) : warning LNK4204: 'B:\7.1Dev\TDD_HW\UnitTestTemplate\Module\x64\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+  ModuleTest.vcxproj -> B:\7.1Dev\TDD_HW\UnitTestTemplate\Module\x64\Debug\ModuleTest.exe
+  Running main() from gtest_main.cc
+  [==========] Running 11 tests from 7 test cases.
+  [----------] Global test environment set-up.
+  [----------] 1 test from QDateTest
+  [ RUN      ] QDateTest.HowToUseIt
+  [       OK ] QDateTest.HowToUseIt (0 ms)
+  [----------] 1 test from QDateTest (0 ms total)
+  
+  [----------] 1 test from EmptyBudget
+  [ RUN      ] EmptyBudget.ReturnsZero
+  [       OK ] EmptyBudget.ReturnsZero (0 ms)
+  [----------] 1 test from EmptyBudget (0 ms total)
+  
+  [----------] 4 tests from OneMonthBudget
+  [ RUN      ] OneMonthBudget.OneDay
+  [       OK ] OneMonthBudget.OneDay (0 ms)
+  [ RUN      ] OneMonthBudget.TwoDays
+  [       OK ] OneMonthBudget.TwoDays (0 ms)
+  [ RUN      ] OneMonthBudget.WholeMonth
+  [       OK ] OneMonthBudget.WholeMonth (1 ms)
+  [ RUN      ] OneMonthBudget.TwoMonth
+  [       OK ] OneMonthBudget.TwoMonth (0 ms)
+  [----------] 4 tests from OneMonthBudget (1 ms total)
+  
+  [----------] 2 tests from TwoMonthBudget
+  [ RUN      ] TwoMonthBudget.TwoMonth
+  [       OK ] TwoMonthBudget.TwoMonth (0 ms)
+  [ RUN      ] TwoMonthBudget.T2
+  [       OK ] TwoMonthBudget.T2 (0 ms)
+  [----------] 2 tests from TwoMonthBudget (0 ms total)
+  
+  [----------] 1 test from ThreeMonthBudget
+  [ RUN      ] ThreeMonthBudget.T1
+  [       OK ] ThreeMonthBudget.T1 (0 ms)
+  [----------] 1 test from ThreeMonthBudget (0 ms total)
+  
+  [----------] 1 test from Discotinus2Month
+  [ RUN      ] Discotinus2Month.T1
+  [       OK ] Discotinus2Month.T1 (0 ms)
+  [----------] 1 test from Discotinus2Month (0 ms total)
+  
+  [----------] 1 test from JumpOneYear
+  [ RUN      ] JumpOneYear.T1
+  [       OK ] JumpOneYear.T1 (0 ms)
+  [----------] 1 test from JumpOneYear (0 ms total)
+  
+  [----------] Global test environment tear-down
+  [==========] 11 tests from 7 test cases ran. (1 ms total)
+  [  PASSED  ] 11 tests.
